@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 
-const page = () => {
+const Home = () => {
   return (
     <div>
       <Button variant={"outline"}>ТЕСТ</Button>
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Home;
