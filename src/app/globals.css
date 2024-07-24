@@ -12,6 +12,15 @@ html {
   }
 }
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+}
 @layer base {
   :root {
     --foreground: 20 14.3% 4.1%;
